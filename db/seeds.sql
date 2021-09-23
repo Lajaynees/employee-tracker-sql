@@ -1,5 +1,9 @@
 USE employee_db;
 
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
+
 INSERT INTO department (name)
 VALUES
     ('Management'),
@@ -19,3 +23,10 @@ VALUES
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id) 
 VALUES
+    ( 'Terry', 'Max', 1, 'Thomas Carter'),
+    ('Mike', 'Chan', 2, 'Angel Cruz'),
+    ('Ashley', 'Rodriguez', 3, null),
+    ('Kevin', 'Patrick', 4, 'Ash Jacobs'),
+    ('Micha', 'Bradley', 5, null),
+    ('Sarah', 'Pressley', 6, null),
+    ('Jim', 'Allen', 7, 'Jesica Myers');
